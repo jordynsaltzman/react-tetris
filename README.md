@@ -1,2 +1,3 @@
-# react-tetris
-Replicating the classic Tetris game using React! 
+# React Tetris
+
+Replicating the classic Tetris game using React!
