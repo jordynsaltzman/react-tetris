@@ -57,3 +57,11 @@ export const TETROMINOS = {
     color: "227, 78, 78",
   },
 };
+
+export const randomTetromino = () => {
+  const tetrominos = "IJLOSTZ";
+  const randTetromino =
+    tetrominos[Math.floor(Math.random() * tetrominos.length)];
+  //returns the object of the tetromino containing the shape and color
+  return TETROMINOS[randTetromino];
+};
